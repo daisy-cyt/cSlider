@@ -1,0 +1,2 @@
+# cSlider
+slider plugin
