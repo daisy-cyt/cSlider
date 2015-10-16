@@ -1,0 +1,23 @@
+.slider-nav-dot {
+    position: absolute;
+    z-index: 999;
+    bottom: 10px;
+    left: 360px;
+}
+.slider-nav-dot ul li {
+    float: left;
+    margin-right: 8px;
+}
+.slider-nav-dot ul li a {
+    width: 10px;
+    height: 10px;
+    background-image: url(dot.png);
+    display: block;
+    cursor: pointer;
+}
+.slider-nav-dot ul li a:hover {
+    background-image: url(dot-active.png);
+}
+.slider-nav-dot ul li .slider-dot-active {
+    background-image: url(dot-active.png);
+}
